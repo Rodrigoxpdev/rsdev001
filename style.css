@@ -1,1 +1,38 @@
 @charset "UTF8";
+
+/* CORPO */
+body{
+    background-color: rgba(0, 0, 0, 0.396);
+    margin: 0px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* CABEÇALHO */
+header{
+    background-color: cadetblue;
+
+}
+
+
+/* MENU DE NAVEGAÇAO */
+nav{
+    background-color: aquamarine;
+
+}
+
+
+/* CONTEUDO PRINCIPAL */
+main{
+    background-color: brown;
+    
+}
+
+
+
+
+
+
+
+
