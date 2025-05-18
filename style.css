@@ -2,10 +2,10 @@
 
 /* CORPO */
 body{
-    background-color: rgba(0, 0, 0, 0.396);
+    /* background-color: rgba(0, 0, 0, 0.396); */
     margin: 0px;
-    height: auto;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
 }
 
 :root{
@@ -61,9 +61,10 @@ nav> a:hover{
 main{
     background-color: rgb(255, 255, 255);
     max-width: 98%;
-    height: 100vh;
+    
     margin: auto;
-    padding-top: 10px;   
+    padding-top: 10px;
+    letter-spacing: 1px;   
 }
 
 main > article > h2 {
