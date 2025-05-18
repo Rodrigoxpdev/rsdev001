@@ -9,19 +9,18 @@ body{
 }
 
 :root{
-    --cor001:#0CE876;
-    --cor002:#0AC564;
-    --cor003:#0CF07A;
-    --cor004:#08A353;
-    --cor005:#078544;
-    --cor006:#2C6146;
+    --cor001:#0C51E7;
+    --cor002:#0A45C5;
+    --cor003:#0C54F0;
+    --cor004:#0235A3;
+    --cor005:#062D81;
+    --cor006:#05215F;
 }
 
 /* CABEÇALHO */
 header{
-    background-color: #078544;
+    background-color:var(--cor005);
     padding: 10px;
-
 }
 
 
@@ -33,7 +32,7 @@ header > h1{
 nav{
     background-color: aquamarine;
     display: flex;
-    background-image: linear-gradient(to bottom, #078544,black);
+    background-image: linear-gradient(to bottom, #062D81,black);
 
 }
 
