@@ -103,7 +103,7 @@ main > article > h2 {
 /* Imagens com mesmo tamanho e proporção */
 .card-imagens img {
     width: 100%;
-    max-width: 350px;
+    max-width: 150px;
     aspect-ratio: 1/1; /* Mantém quadrado, ajuste se quiser outra proporção */
     object-fit: cover;
     border-radius: 8px;
