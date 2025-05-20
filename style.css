@@ -106,3 +106,16 @@ main > article > h2 {
         max-width: 90%;
     }
 }
+
+@media (min-width: 700px) {
+    .card-imagens {
+        max-width: 400px;
+        align-items: center;
+    }
+    .card-imagens img {
+        max-width: 100%;
+    }
+}
+
+
+
