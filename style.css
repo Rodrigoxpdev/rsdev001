@@ -61,7 +61,7 @@ nav> a:hover{
 main{
     background-color: rgb(255, 255, 255);
     max-width: 98%;
-    
+    display: inline-block;
     margin: auto;
     padding-top: 10px;
     letter-spacing: 1px;   
@@ -71,10 +71,51 @@ main > article > h2 {
     color:var(--cor001);
 
 }
+/* ----------------------------------- */
+/* .conteiner{
+    
+    width: 100%;
+    margin: auto;
+   
+}
+.imgpk img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+} */
 
 
 
+/* Card com sombra e borda arredondada */
+.card-imagens {
+    display: flex;
+    gap: 10px;
+    max-width: 350px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+}
 
+/* Imagens com mesmo tamanho e proporção */
+.card-imagens img {
+    width: 100%;
+    max-width: 350px;
+    aspect-ratio: 1/1; /* Mantém quadrado, ajuste se quiser outra proporção */
+    object-fit: cover;
+    border-radius: 8px;
+}
 
-
-
+/* Responsivo: imagens em coluna no celular */
+@media (max-width: 350px) {
+    .card-imagens {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-imagens img {
+        max-width: 90%;
+    }
+}
