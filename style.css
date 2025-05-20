@@ -107,6 +107,9 @@ main > article > h2 {
     }
 }
 
+
+
+/* Adaptando o tamanho da imagem para a tela grande */
 @media (min-width: 700px) {
     .card-imagens {
         max-width: 400px;
@@ -116,6 +119,48 @@ main > article > h2 {
         max-width: 100%;
     }
 }
+/* ------------------------- */
+
+/* Animação de zoom no hover */
+.card-imagens img {
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+.card-imagens img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 4px 16px rgba(12,81,231,0.25);
+}
+
+/* Animação fade-in ao carregar */
+.card-imagens img {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+.card-imagens img:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
