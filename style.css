@@ -72,25 +72,12 @@ main > article > h2 {
 
 }
 /* ----------------------------------- */
-/* .conteiner{
-    
-    width: 100%;
-    margin: auto;
-   
-}
-.imgpk img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-} */
-
-
 
 /* Card com sombra e borda arredondada */
 .card-imagens {
     display: flex;
     gap: 10px;
-    max-width: 350px;
+    max-width: 90%;
     margin: 30px auto;
     background: #fff;
     border-radius: 12px;
@@ -103,7 +90,7 @@ main > article > h2 {
 /* Imagens com mesmo tamanho e proporção */
 .card-imagens img {
     width: 100%;
-    max-width: 150px;
+    max-width: 400px;
     aspect-ratio: 1/1; /* Mantém quadrado, ajuste se quiser outra proporção */
     object-fit: cover;
     border-radius: 8px;
