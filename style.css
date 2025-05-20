@@ -103,6 +103,6 @@ main > article > h2 {
         align-items: center;
     }
     .card-imagens img {
-        max-width: 80%;
+        max-width: 60%;
     }
 }
