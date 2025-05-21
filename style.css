@@ -45,16 +45,13 @@ nav > a{
     font-weight: bold;
     font-size: 1.1em;
     padding: 10px;
-    
-
 }
 
 nav> a:hover{
     color: rgb(0, 0, 0);
     text-decoration: underline;
     background-color: #0C54F0;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 
 /* CONTEUDO PRINCIPAL */
@@ -69,7 +66,6 @@ main{
 
 main > article > h2 {
     color:var(--cor001);
-
 }
 /* ----------------------------------- */
 
